@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Book Consultation – MCM Psych Space | Tshwane</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="keywords" content="psychology consultation booking, clinical psychology appointments, mental health consultation">
+    <meta name="description" content="Book your psychology consultation with MCM Psych Space. Professional clinical psychology practice offering in-person and online sessions in Pretoria.">
+    <meta name="author" content="MCM Psych Space">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mcmpsychspace.co.za/appointment.html">
+
+    <!-- Fonts & Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Spinner, Topbar, Navbar (same as index) -->
+    <!-- ... -->
+
+    <!-- Header -->
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5 max-width-900">
+            <h1 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Book Your Psychology Appointment</h1>
+            <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active text-primary">Appointment</li>
+            </ol>    
+        </div>
+    </div>
+
+    <!-- Book Appointment Start -->
+    <div class="container-fluid appointment py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-12 mb-5 wow fadeInDown" data-wow-delay="0.2s">
+                    <div class="section-title text-center">
+                        <h4 class="sub-title pe-3 mb-0">Available Appointment Slots</h4>
+                        <h2 class="display-5 mb-4">Select a Date to View Available Times</h2>
+                        <p class="mb-4">View our calendar below to find an available appointment slot. Once you've found a suitable time, please complete the form below to book your appointment.</p>
+                    </div>
+                    <div class="calendar-container rounded shadow p-3 mb-5 bg-white">
+                        <iframe 
+                            src="https://teamup.com/ks/pt7vj7t3b2q1n991?view=a&showHeader=0&showProfileAndAuthentication=0" 
+                            class="w-100 h-100 border-0" 
+                            loading="lazy" 
+                            title="MCM Psych Space Consultation Slots" 
+                            aria-label="Teamup agenda view showing available appointment slots" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="section-title text-start">
+                        <h4 class="sub-title pe-3 mb-0">Psychology Consultation</h4>
+                        <h2 class="display-6 mb-4">Book Your Consultation</h2>
+                        <p class="mb-4">Visit our practice at one of our two locations in Pretoria Central or Doornpoort. We offer both in-person and online sessions tailored to your needs.</p>
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="d-flex align-items-center justify-content-center rounded-circle bg-light contact-icon-box">
+                                <i class="fa fa-money-bill fa-2x text-primary"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5 class="mb-0">Individual Session Fee</h5>
+                                <p class="mb-0">R950 (50-minute session)</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="d-flex align-items-center justify-content-center rounded-circle bg-light contact-icon-box">
+                                <i class="fa fa-clock fa-2x text-primary"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5 class="mb-0">Practice Hours</h5>
+                                <p class="mb-0">Mon–Thu 08:00–17:00 | Fri 08:00–16:00</p>
+                                <p class="mb-0">Online sessions available by appointment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="appointment-form rounded p-5">
+                        <h2 class="display-6 mb-4">Appointment Request Form</h2>
+                        <form id="appointmentForm">
+                            <div class="row gy-3 gx-4">
+                                <div class="col-xl-12">
+                                    <input type="text" class="form-control py-3 border-primary bg-transparent" placeholder="Full Name" required>
+                                </div>
+                                <div class="col-xl-6">
+                                    <input type="email" class="form-control py-3 border-primary bg-transparent" placeholder="Email Address" required>
+                                </div>
+                                <div class="col-xl-6">
+                                    <input type="tel" class="form-control py-3 border-primary bg-transparent" placeholder="Phone Number" required>
+                                </div>
+                                <div class="col-xl-12">
+                                    <select class="form-select py-3 border-primary bg-transparent" aria-label="Service Type" required>
+                                        <option value="" selected disabled>Service Type</option>
+                                        <option value="in_person">In-Person Consultation (R950)</option>
+                                        <option value="online">Online Consultation (R850)</option>
+                                    </select>
+                                </div>
+                                <div class="col-xl-12">
+                                    <select id="hvCondition" class="form-select py-3 border-primary bg-transparent" aria-label="Area of Concern" required>
+                                        <option value="" selected disabled>Area of Concern</option>
+                                        <option value="anxiety">Anxiety Disorders</option>
+                                        <option value="depression">Depression</option>
+                                        <option value="trauma">Trauma & PTSD</option>
+                                        <option value="relationship">Relationship Issues</option>
+                                        <option value="stress">Stress Management</option>
+                                        <option value="grief">Grief & Loss</option>
+                                        <option value="other">Other (please specify)</option>
+                                    </select>
+                                </div>
+                                <!-- Preferred Psychologist dropdown -->
+                                <div class="col-xl-12">
+                                    <select class="form-select py-3 border-primary bg-transparent" aria-label="Preferred Psychologist" required>
+                                        <option value="" selected disabled>Preferred Psychologist</option>
+                                        <option value="steven">Steven Ntsime Ntlatleng</option>
+                                        <option value="molebogeng">Molebogeng Modiba</option>
+                                        <option value="no_preference">No Preference</option>
+                                    </select>
+                                </div>
+                                <div class="col-xl-12">
+                                    <label for="appointmentDate" class="form-label visually-hidden">Appointment Date</label>
+                                    <input type="date" class="form-control py-3 border-primary bg-transparent" id="appointmentDate" required>
+                                </div>
+                                <div class="col-12">
+                                    <textarea id="hvDesc" class="form-control border-primary bg-transparent" name="description" cols="30" rows="4" placeholder="Please describe your condition or any specific requirements"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="consentCheck" required>
+                                        <label class="form-check-label" for="consentCheck">
+                                            I consent to MCM Psych Space collecting and storing my personal information for consultation purposes.
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary text-white w-100 py-3 px-5">SUBMIT REQUEST</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Book Appointment End -->
+
+     <!-- Footer Start (standardized) -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4"><i class="fas fa-brain me-3"></i>MCM Psych Space</h4>
+                        <p>A group practice of dedicated clinical psychologists providing compassionate, evidence-based mental health care in a safe, supportive environment.</p>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-share fa-2x text-white me-2"></i>
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.linkedin.com/company/mcm-psych-space" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Quick Links</h4>
+                        <a href="our-team.html"><i class="fas fa-angle-right me-2"></i> Our Team</a>
+                        <a href="service.html"><i class="fas fa-angle-right me-2"></i> Services</a>
+                        <a href="specializations.html"><i class="fas fa-angle-right me-2"></i> Specializations</a>
+                        <a href="blog.html"><i class="fas fa-angle-right me-2"></i> Blog</a>
+                        <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                        <a href="appointment.html"><i class="fas fa-angle-right me-2"></i> Appointment</a>
+                        <a href="privacy.html"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
+                        <a href="terms.html"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Psychology Services</h4>
+                        <a href="service.html"><i class="fas fa-angle-right me-2"></i> Individual Psychotherapy</a>
+                        <a href="service.html"><i class="fas fa-angle-right me-2"></i> Psychological Assessments</a>
+                        <a href="service.html"><i class="fas fa-angle-right me-2"></i> Couples & Family Therapy</a>
+                        <a href="service.html"><i class="fas fa-angle-right me-2"></i> Trauma Therapy</a>
+                        <a href="service.html"><i class="fas fa-angle-right me-2"></i> Group Workshops</a>
+                        <a href="service.html"><i class="fas fa-angle-right me-2"></i> Online Therapy</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Our Locations</h4>
+                        <a href="#"><i class="fa fa-map-marker-alt me-2"></i> Shop 0266, 254 Sisulu Street, Pretoria Central, 0002</a>
+                        <a href="#"><i class="fa fa-map-marker-alt me-2"></i> 472 Airport Road, Doornpoort, Pretoria, 0186</a>
+                        <h5 class="text-white mt-3 mb-2">Contact Us</h5>
+                        <a href="mailto:info@mcmpsychspace.com"><i class="fas fa-envelope me-2"></i> info@mcmpsychspace.com</a>
+                        <a href="tel:+27693141888"><i class="fas fa-phone me-2"></i> Steven: 069 314 1888</a>
+                        <a href="tel:+27694609734"><i class="fas fa-phone me-2"></i> Molebogeng: 069 460 9734</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+</body>
+</body>
+</html>

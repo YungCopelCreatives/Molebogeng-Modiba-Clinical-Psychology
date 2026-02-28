@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://mcmpsychspace.co.za/sitemap.xml
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow certain file types
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.xls$
+Disallow: /admin/
+Disallow: /private/
+
+# Allow important pages
+Allow: /
+Allow: /our-team.html
+Allow: /service.html
+Allow: /specializations.html
+Allow: /appointment.html
+Allow: /contact.html
+Allow: /blog.html
